@@ -18,6 +18,20 @@
 .Categories {
   display: flex;
   color: #532db0;
+  margin: 0px 350px;
+}
+
+.Categories .alice-carousel__next-btn-wrapper {
+  border: 1px solid;
+  border-radius: 100%;
+  padding: 0 5px;
+}
+
+.Categories .alice-carousel__next-btn {
+  position: absolute;
+  right: 0;
+  width: auto;
+  bottom: 100px;
 }
 
 @media (max-width: 789px) {
