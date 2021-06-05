@@ -18,6 +18,10 @@
   justify-content: space-around;
 }
 
+.Menu {
+  display: none;
+}
+
 @media (max-width: 789px) {
   .CTAs {
     display: none;
@@ -27,5 +31,12 @@
   }
   .Navbar {
     margin: 15px 40px;
+  }
+  .links {
+    display: block;
+  }
+  .Menu {
+    display: block;
+    align-self: center;
   }
 }

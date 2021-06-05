@@ -1,5 +1,6 @@
 import { Button, withStyles } from '@material-ui/core';
 import { purple } from '@material-ui/core/colors';
+import MobileDrawer from './Drawer';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -68,6 +69,9 @@ const Navbar = () => {
         </LoginButton>
         <AppointmentButton>Book Appointment</AppointmentButton>
         <RegisterButton>Register Hospital</RegisterButton>
+      </div>
+      <div className="Menu">
+        <MobileDrawer />
       </div>
     </div>
   );
