@@ -3,7 +3,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 .Title {
-  font-size: 48px;
+  font-size: 3em;
   font-weight: 600;
 
   text-align: center;
@@ -34,4 +34,14 @@
   color: black;
   font-size: 18px;
   font-weight: 500;
+}
+
+@media (max-width: 789px) {
+  .Steps {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Title {
+    font-size: 2em;
+  }
 }
