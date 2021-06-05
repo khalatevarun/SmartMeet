@@ -1,0 +1,27 @@
+.carouselItem {
+  display: flex;
+  padding: 10px;
+}
+
+.carouselItem_img {
+  margin: 5px;
+  width: 50px;
+}
+.Type {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 5px;
+  font-size: 0.85em;
+}
+.Categories {
+  display: flex;
+  color: #532db0;
+}
+
+@media (max-width: 789px) {
+  .carouselItem_img {
+    width: 30px;
+  }
+}

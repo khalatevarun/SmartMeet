@@ -1,0 +1,59 @@
+.Hero {
+  margin: 15px 60px;
+  background: #f7f7f7;
+  justify-content: center;
+  display: flex;
+  border-radius: 8px;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+}
+.Highlight {
+  align-self: center;
+  font-size: 3.5em;
+  margin: 30px 50px;
+  text-align: center;
+  font-weight: 700;
+  color: #32177c;
+}
+
+.Location {
+  display: flex;
+  border: 1px solid;
+  border-color: #532db0;
+  border-radius: 4px;
+  padding: 8px;
+  margin: 40px auto 100px auto;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 789px) {
+  .Hero {
+    margin: 15px 30px;
+  }
+  .Highlight {
+    font-size: 2em;
+    margin: 30px 8px;
+  }
+  .Location {
+    flex-direction: column;
+    border: none;
+  }
+  .verticalLine {
+    display: none;
+  }
+  .locationType {
+    border: 1px solid;
+    border-color: #532db0;
+    border-radius: 4px;
+    padding: 4px 4px;
+    margin: 8px 0px;
+  }
+  .locationInput {
+    border: 1px solid;
+    border-color: #532db0;
+    border-radius: 4px;
+    padding: 4px 4px;
+    margin: 8px 0px;
+  }
+}
