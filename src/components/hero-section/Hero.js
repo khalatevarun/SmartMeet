@@ -41,32 +41,34 @@ const Hero = () => {
       <Carousel />
 
       <div className="Location">
-        <div className="locationInput">
-          <InputBase
-            placeholder="Location"
-            startAdornment={
-              <InputAdornment position="start">
-                <LocationOnIcon color="disabled" />
-              </InputAdornment>
-            }
-          />
-        </div>
-        <div className="verticalLine">
-          <hr
-            size="50"
-            color="#32177c"
-            style={{ width: '1px', border: 'none' }}
-          ></hr>
-        </div>
-        <div className="locationType">
-          <InputBase
-            placeholder="Doctor, speciality, hospital or treatment"
-            startAdornment={
-              <InputAdornment position="start">
-                <MyLocationIcon color="disabled" />
-              </InputAdornment>
-            }
-          />
+        <div class="Inputs">
+          <div className="locationInput">
+            <InputBase
+              placeholder="Location"
+              startAdornment={
+                <InputAdornment position="start">
+                  <LocationOnIcon color="disabled" />
+                </InputAdornment>
+              }
+            />
+          </div>
+          <div className="verticalLine">
+            <hr
+              size="50"
+              color="#32177c"
+              style={{ width: '1px', border: 'none' }}
+            ></hr>
+          </div>
+          <div className="locationType">
+            <InputBase
+              placeholder="Doctor, speciality, hospital or treatment"
+              startAdornment={
+                <InputAdornment position="start">
+                  <MyLocationIcon color="disabled" />
+                </InputAdornment>
+              }
+            />
+          </div>
         </div>
         <AppointmentButton variant="contained" disableElevation color="#fff">
           Book Now

@@ -34,6 +34,11 @@
 .locationType .MuiInputBase-root {
   width: 100%;
 }
+.Inputs {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
 
 @media (max-width: 789px) {
   .Hero {
@@ -44,8 +49,12 @@
     margin: 30px 8px;
   }
   .Location {
+    display: flex;
     flex-direction: column;
     border: none;
+    margin: 40px 20px 100px 20px;
+    width: auto;
+    justify-content: center;
   }
   .verticalLine {
     display: none;
@@ -63,5 +72,14 @@
     border-radius: 4px;
     padding: 4px 4px;
     margin: 8px 0px;
+  }
+  .Inputs {
+    display: block;
+    margin-bottom: 20px;
+  }
+  .MuiButtonBase-root {
+    /* align book now button in center*/
+    width: 50%;
+    align-self: center;
   }
 }

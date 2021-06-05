@@ -25,13 +25,29 @@
   border: 1px solid;
   border-radius: 100%;
   padding: 0 5px;
+  color: #532db0;
+  margin-left: 16px;
 }
 
 .Categories .alice-carousel__next-btn {
   position: absolute;
   right: 0;
   width: auto;
-  bottom: 100px;
+  bottom: 50px;
+}
+.Categories .alice-carousel__prev-btn-wrapper {
+  border: 1px solid;
+  border-radius: 100%;
+  padding: 0 5px;
+  color: #532db0;
+  margin-right: 16px;
+}
+
+.Categories .alice-carousel__prev-btn {
+  position: absolute;
+  left: 0;
+  width: auto;
+  bottom: 50px;
 }
 
 @media (max-width: 789px) {
