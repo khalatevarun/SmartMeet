@@ -13,10 +13,3 @@ export const categories = [
   { img: gastroenterologist, name: 'Gastroenterologist' },
   { img: nephrologist, name: 'Nephrologist' },
 ];
-
-export const steps = [
-  { no: '01', text: 'Select hospita & location', img: dentist },
-  { no: '02', text: 'Choose doctor and preferred slot', img: dentist },
-  { no: '03', text: 'Add your details and verify', img: dentist },
-  { no: '04', text: 'Booking done', img: dentist },
-];
