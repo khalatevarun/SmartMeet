@@ -52,7 +52,11 @@ const Hero = () => {
           />
         </div>
         <div className="verticalLine">
-          <hr size="50" color="#000"></hr>
+          <hr
+            size="50"
+            color="#32177c"
+            style={{ width: '1px', border: 'none' }}
+          ></hr>
         </div>
         <div className="locationType">
           <InputBase
