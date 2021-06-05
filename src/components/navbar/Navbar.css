@@ -1,0 +1,31 @@
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 60px;
+}
+
+.Name {
+  cursor: pointer;
+  font-size: 2em;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+}
+
+.CTAs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 789px) {
+  .CTAs {
+    display: none;
+  }
+  .Name {
+    font-size: 1.5em;
+  }
+  .Navbar {
+    margin: 15px 40px;
+  }
+}
