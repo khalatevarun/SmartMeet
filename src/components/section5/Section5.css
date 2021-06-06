@@ -1,0 +1,55 @@
+.Section5 {
+  margin: 150px 60px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Headline {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 60px;
+}
+.Block {
+  display: flex;
+  padding: 50px;
+  -moz-box-shadow: 4px 4px 4px 4px 50px 0px #ccc;
+  -webkit-box-shadow: 4px 4px 50px 0px #ccc;
+  box-shadow: 0px 20px 60px 0px #ccc;
+  border-radius: 16px;
+}
+.Sub {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin: 0px 150px 0px 30px;
+}
+
+.Types {
+  line-height: 0%;
+  color: rgb(158, 155, 155);
+}
+.Stats {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 0%;
+}
+
+@media (max-width: 789px) {
+  .Headline {
+    font-size: 2em;
+  }
+  .Block {
+    flex-direction: column;
+    padding: 50px 10px;
+    align-self: center;
+    margin: 0px 30px;
+  }
+  .Sub {
+    align-items: center;
+  }
+  .Types {
+    line-height: normal;
+  }
+}
