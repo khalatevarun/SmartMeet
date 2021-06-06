@@ -1,0 +1,41 @@
+.Section3 {
+  margin: 150px 60px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Head {
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.Descrp {
+  width: 30%;
+  text-align: center;
+  font-size: 1.25em;
+}
+.Partners {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 0px 50px;
+}
+.Images {
+  margin: '0px 30px';
+}
+
+@media (max-width: 789px) {
+  .Descrp {
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+  }
+  .Partners {
+    flex-direction: column;
+    align-items: center;
+  }
+}
