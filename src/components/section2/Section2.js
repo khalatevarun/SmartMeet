@@ -1,4 +1,4 @@
-import './Section.css';
+import './Section2.css';
 import dentist from '../../images/dentist.png';
 
 const Section2 = () => {
