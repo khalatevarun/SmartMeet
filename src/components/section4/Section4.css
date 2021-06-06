@@ -25,3 +25,19 @@
   font-size: 1.25em;
   width: 15%;
 }
+
+@media (max-width: 789px) {
+  .Main {
+    font-size: 2em;
+  }
+  .Facilities {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Facility {
+    text-align: center;
+    font-size: 1.25em;
+    width: 80%;
+    margin-bottom: 70px;
+  }
+}
