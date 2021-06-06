@@ -3,7 +3,7 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 import './Carousel.css';
-import { categories } from '../../data/carouselItem';
+import { categories } from '../../data/data';
 
 const handleDragStart = (e) => e.preventDefault();
 
