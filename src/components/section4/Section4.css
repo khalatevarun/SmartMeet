@@ -1,0 +1,43 @@
+.Section4 {
+  margin: 150px 0px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #946cfc;
+  padding: 100px 60px;
+  color: white;
+}
+
+.Main {
+  text-align: center;
+  font-size: 3em;
+}
+.Facilities {
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+.Facility {
+  text-align: center;
+  font-size: 1.25em;
+  width: 15%;
+}
+
+@media (max-width: 789px) {
+  .Main {
+    font-size: 2em;
+  }
+  .Facilities {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Facility {
+    text-align: center;
+    font-size: 1.25em;
+    width: 80%;
+    margin-bottom: 70px;
+  }
+}
