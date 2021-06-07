@@ -15,11 +15,12 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
 }
 .Single {
   display: flex;
   flex-direction: column;
-  width: 280px;
+  width: 250px;
   margin: 50px;
 }
 .Date {
