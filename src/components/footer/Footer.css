@@ -46,6 +46,11 @@
 .FooterButton {
   display: flex;
 }
+.Icons {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
 
 @media (max-width: 789px) {
   .WrapperFooter {
@@ -66,5 +71,8 @@
   }
   .Horizontal {
     margin: 0px 30px;
+  }
+  .Icons {
+    justify-content: center;
   }
 }

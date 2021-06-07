@@ -1,5 +1,8 @@
 import { Button, InputBase, withStyles } from '@material-ui/core';
 import './Footer.css';
+import fb from '../../images/fb.png';
+import gplus from '../../images/gplus.png';
+import twitter from '../../images/twitter.png';
 
 const Footer = () => {
   const AppointmentButton = withStyles((theme) => ({
@@ -53,10 +56,25 @@ const Footer = () => {
 
             <AppointmentButton>Book Appointment</AppointmentButton>
           </div>
-          <div>
-            <img />
-            <img />
-            <img />
+          <div className="Icons">
+            <img
+              src={twitter}
+              alt="Twitter"
+              width="20px"
+              style={{ margin: '0px 10px' }}
+            />
+            <img
+              src={fb}
+              alt="Facebook"
+              width="20px"
+              style={{ margin: '0px 10px' }}
+            />
+            <img
+              src={gplus}
+              alt="Google plus"
+              width="30px"
+              style={{ margin: '0px 10px' }}
+            />
           </div>
         </div>
       </div>
