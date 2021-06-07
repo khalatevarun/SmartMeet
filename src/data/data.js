@@ -95,7 +95,7 @@ export const tips = [
   },
 ];
 
-const faqs = [
+export const faqs = [
   {
     ques: 'How do I cancel my appointment?',
     ans: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.',

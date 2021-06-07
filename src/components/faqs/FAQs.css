@@ -1,14 +1,15 @@
 .Faqs {
   margin: 150px 60px 50px 60px;
   font-family: 'Open Sans', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.MuiButtonBase-roott {
-  background-color: #f8f4ff;
-  border-radius: 8px;
+.Single-Item .MuiButtonBase-root {
+  background-color: #f8f4ff !important;
+  border-radius: 8px !important;
+}
+
+.Single-Item .MuiPaper-elevation1 {
+  box-shadow: none;
 }
 
 .TitleFaqs {

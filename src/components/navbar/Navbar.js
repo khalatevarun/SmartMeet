@@ -1,5 +1,5 @@
 import { Button, withStyles } from '@material-ui/core';
-import { purple } from '@material-ui/core/colors';
+
 import MobileDrawer from './Drawer';
 import './Navbar.css';
 
