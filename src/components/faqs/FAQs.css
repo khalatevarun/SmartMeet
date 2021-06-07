@@ -1,6 +1,10 @@
 .Faqs {
   margin: 150px 60px 50px 60px;
   font-family: 'Open Sans', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Single-Item .MuiButtonBase-root {

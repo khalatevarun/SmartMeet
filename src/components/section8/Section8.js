@@ -20,12 +20,7 @@ const Section8 = () => {
         </div>
       </div>
       <div className="Div2">
-        <img
-          className="Mobiles"
-          src={mobile}
-          alt="mobiles"
-          style={{ marginTop: '450px' }}
-        />
+        <img className="Mobiles" src={mobile} alt="mobiles" />
       </div>
     </div>
   );
