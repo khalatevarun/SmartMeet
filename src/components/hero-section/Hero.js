@@ -8,7 +8,6 @@ import {
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import MyLocationIcon from '@material-ui/icons/MyLocation';
 import Carousel from './Carousel';
-import CircleAvatars from './CircleAvatars';
 import hero1 from '../../images/hero1.png';
 import hero2 from '../../images/hero2.png';
 import hero4 from '../../images/hero4.png';
