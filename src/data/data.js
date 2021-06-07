@@ -9,9 +9,9 @@ import indraprastha from '../images/indraprastha.png';
 import fortis from '../images/fortis.png';
 import blk from '../images/blk.png';
 import artemis from '../images/artemis.png';
-import tip1 from '../images/tip1.png';
-import tip2 from '../images/tip2.png';
-import tip3 from '../images/tip3.png';
+import tip1 from '../images/tip1.jpg';
+import tip2 from '../images/tip2.jpg';
+import tip3 from '../images/tip3.jpg';
 import tip4 from '../images/tip4.png';
 
 export const categories = [
