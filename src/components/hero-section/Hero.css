@@ -1,5 +1,5 @@
 .Hero {
-  margin: 15px 60px;
+  margin: 15px 90px;
   background: #f7f7f7;
   justify-content: center;
   display: flex;
@@ -10,10 +10,11 @@
 .Highlight {
   align-self: center;
   font-size: 3.5em;
-  margin: 30px 50px;
+  margin: 90px 50px;
   text-align: center;
   font-weight: 700;
   color: #32177c;
+  display: flex;
 }
 
 .Location {
@@ -33,6 +34,9 @@
 
 .locationType .MuiInputBase-root {
   width: 100%;
+}
+.Bottom {
+  display: flex;
 }
 .Inputs {
   display: flex;
