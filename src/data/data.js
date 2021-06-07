@@ -13,6 +13,17 @@ import tip1 from '../images/tip1.jpg';
 import tip2 from '../images/tip2.jpg';
 import tip3 from '../images/tip3.jpg';
 import tip4 from '../images/tip4.png';
+import d from '../images/d.png';
+import tests from '../images/tests.png';
+import h from '../images/h.png';
+import done from '../images/done.png';
+
+export const steps = [
+  { no: '01', text: 'Select hospital & location', img: h },
+  { no: '02', text: 'Choose doctor and preferred slot', img: d },
+  { no: '03', text: 'Add your details and verify', img: tests },
+  { no: '04', text: 'Booking done', img: done },
+];
 
 export const categories = [
   { img: dentist, name: 'Dentist' },
