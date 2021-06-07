@@ -35,3 +35,19 @@
   margin: 8px 0px;
   font-size: 1em;
 }
+
+@media (max-width: 789px) {
+  .HealthTitle {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  .Single {
+    margin: 30px;
+    align-items: center;
+    width: auto;
+  }
+  .Date {
+    align-self: self-start;
+    margin: 8px 0px;
+  }
+}
