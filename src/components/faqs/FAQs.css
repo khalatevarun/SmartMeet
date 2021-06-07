@@ -1,7 +1,19 @@
 .Faqs {
-  margin: 150px 60px;
+  margin: 150px 60px 50px 60px;
   font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.MuiButtonBase-roott {
+  background-color: #f8f4ff;
+  border-radius: 8px;
+}
+
+.TitleFaqs {
+  font-size: 2.5em;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
 }
