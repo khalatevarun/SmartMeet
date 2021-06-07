@@ -5,10 +5,11 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import { faqs } from '../../data/data';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
+    width: '80%',
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -40,15 +41,14 @@ const Accordions = () => {
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography className={classes.heading}>General settings</Typography>
-          <Typography className={classes.secondaryHeading}>
-            I am an accordion
+          <Typography className={classes.heading}>
+            How do I cancel my appointment?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-            Aliquam eget maximus est, id dignissim quam.
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -61,16 +61,14 @@ const Accordions = () => {
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography className={classes.heading}>Users</Typography>
-          <Typography className={classes.secondaryHeading}>
-            You are currently not an owner
+          <Typography className={classes.heading}>
+            How do I cancel my appointment?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Donec placerat, lectus sed mattis semper, neque lectus feugiat
-            lectus, varius pulvinar diam eros in elit. Pellentesque convallis
-            laoreet laoreet.
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -83,15 +81,14 @@ const Accordions = () => {
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography className={classes.heading}>Advanced settings</Typography>
-          <Typography className={classes.secondaryHeading}>
-            Filtering has been entirely disabled for whole web server
+          <Typography className={classes.heading}>
+            How do I cancel my appointment?
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer
-            sit amet egestas eros, vitae egestas augue. Duis vel est augue.
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -104,12 +101,14 @@ const Accordions = () => {
           aria-controls="panel4bh-content"
           id="panel4bh-header"
         >
-          <Typography className={classes.heading}>Personal data</Typography>
+          <Typography className={classes.heading}>
+            How do I cancel my appointment?
+          </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Nunc vitae orci ultricies, auctor nunc in, volutpat nisl. Integer
-            sit amet egestas eros, vitae egestas augue. Duis vel est augue.
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint.
           </Typography>
         </AccordionDetails>
       </Accordion>
