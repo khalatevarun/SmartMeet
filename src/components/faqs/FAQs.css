@@ -17,3 +17,9 @@
   margin-bottom: 30px;
   text-align: center;
 }
+
+@media (max-width: 789px) {
+  .Single-Item .MuiAccordionSummary-root {
+    width: 100%;
+  }
+}
