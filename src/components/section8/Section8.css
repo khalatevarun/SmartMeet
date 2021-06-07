@@ -14,3 +14,20 @@
   font-size: 3em;
   margin-bottom: 60px;
 }
+
+@media (max-width: 789px) {
+  .Section8 {
+    flex-direction: column;
+  }
+  .Div1 {
+    margin-left: 0px;
+    align-self: center;
+    text-align: center;
+  }
+  .TitleBookings {
+    font-size: 1.75em;
+    text-align: start;
+  }
+  .Div2 {
+  }
+}

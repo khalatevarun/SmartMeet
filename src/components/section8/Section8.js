@@ -15,12 +15,12 @@ const Section8 = () => {
           <br /> Use Smart Meet App
         </div>
         <div>
-          <img src={play_store} alt="play store" style={{ marginRight: 30 }} />
+          <img src={play_store} alt="play store" />
           <img src={apple_store} alt="apple store" />
         </div>
       </div>
       <div className="Div2">
-        <img src={mobile} alt="mobiles" width="1000px" />
+        <img src={mobile} alt="mobiles" />
       </div>
     </div>
   );
