@@ -1,0 +1,16 @@
+.Section8 {
+  margin: 150px 60px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+
+  align-items: center;
+}
+.Div1 {
+  margin-left: 60px;
+}
+.Div2 {
+}
+.TitleBookings {
+  font-size: 3em;
+  margin-bottom: 60px;
+}
