@@ -10,10 +10,15 @@
 .Single-Item .MuiButtonBase-root {
   background-color: #f8f4ff !important;
   border-radius: 8px !important;
+  margin: 20px 0px;
 }
 
 .Single-Item .MuiPaper-elevation1 {
   box-shadow: none;
+}
+
+.Single-Item .MuiTypography-body1 {
+  font-size: 1.15em;
 }
 
 .TitleFaqs {
@@ -26,5 +31,8 @@
 @media (max-width: 789px) {
   .Single-Item .MuiAccordionSummary-root {
     width: 100%;
+  }
+  .Single-Item .MuiTypography-body1 {
+    font-size: 1em;
   }
 }

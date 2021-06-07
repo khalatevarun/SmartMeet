@@ -11,16 +11,10 @@ import RemoveIcon from '@material-ui/icons/Remove';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '100%',
+    width: '80%',
   },
   heading: {
-    fontSize: theme.typography.pxToRem(15),
-    flexBasis: '33.33%',
-    flexShrink: 0,
-  },
-  secondaryHeading: {
-    fontSize: theme.typography.pxToRem(15),
-    color: theme.palette.text.secondary,
+    fontFamily: 'Open Sans, sans-serif',
   },
 }));
 
@@ -39,7 +33,7 @@ const Accordions = () => {
         onChange={handleChange('panel' + (i + 1))}
       >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={expanded === true ? <RemoveIcon /> : <AddIcon />}
           aria-controls="panel1bh-content"
           id={i}
         >
