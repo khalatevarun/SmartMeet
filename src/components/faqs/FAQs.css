@@ -35,4 +35,11 @@
   .Single-Item .MuiTypography-body1 {
     font-size: 1em;
   }
+  .Faqs {
+    align-items: flex-start;
+  }
+  .TitleFaqs {
+    font-size: 2em;
+    align-self: center;
+  }
 }

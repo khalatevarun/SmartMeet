@@ -11,7 +11,7 @@ import RemoveIcon from '@material-ui/icons/Remove';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '80%',
+    width: '90%',
   },
   heading: {
     fontFamily: 'Open Sans, sans-serif',
