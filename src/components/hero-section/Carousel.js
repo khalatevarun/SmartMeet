@@ -16,13 +16,13 @@ const Carousel = () => {
         onDragStat={handleDragStart}
         className="carouselItem_img"
       />
-      <p className="carouselItem_txt">{c.name}</p>
+      <div className="carouselItem_txt">{c.name}</div>
     </div>
   ));
 
   const responsive = {
     0: {
-      items: 4,
+      items: 3,
     },
 
     1024: {

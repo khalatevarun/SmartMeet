@@ -6,10 +6,12 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { faqs } from '../../data/data';
+import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from '@material-ui/icons/Remove';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '80%',
+    width: '100%',
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -30,9 +32,30 @@ const Accordions = () => {
     setExpanded(isExpanded ? panel : false);
   };
 
+  const items = faqs.map((faq, i) => (
+    <div className="Single-Item">
+      <Accordion
+        expanded={expanded === 'panel' + (i + 1)}
+        onChange={handleChange('panel' + (i + 1))}
+      >
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1bh-content"
+          id={i}
+        >
+          <Typography className={classes.heading}>{faq.ques}</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>{faq.ans}</Typography>
+        </AccordionDetails>
+      </Accordion>
+    </div>
+  ));
+
   return (
     <div className={classes.root}>
-      <Accordion
+      {items}
+      {/* <Accordion
         expanded={expanded === 'panel1'}
         onChange={handleChange('panel1')}
       >
@@ -111,7 +134,7 @@ const Accordions = () => {
             sint.
           </Typography>
         </AccordionDetails>
-      </Accordion>
+      </Accordion> */}
     </div>
   );
 };
