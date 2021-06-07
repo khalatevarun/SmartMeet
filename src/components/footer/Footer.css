@@ -1,0 +1,48 @@
+.Footer {
+  margin: 0px 0px 0px 0px;
+  font-family: 'Open Sans', sans-serif;
+
+  background: #585ea2;
+
+  color: white;
+}
+.WrapperFooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 60px 0px;
+}
+
+.Start {
+  margin-bottom: 40px;
+  font-size: 20px;
+  margin-top: 36px;
+}
+.NameFooter {
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  margin-top: 36px;
+}
+.Horizontal {
+  margin: 0px 200px;
+}
+.Copyright {
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 1em;
+}
+
+.FooterButton .MuiInputBase-root {
+  /* color: white; */
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 6px;
+  border-color: #f2f2f4;
+  background: white;
+}
+
+.FooterButton {
+  display: flex;
+}

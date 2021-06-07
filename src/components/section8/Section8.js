@@ -24,7 +24,7 @@ const Section8 = () => {
           className="Mobiles"
           src={mobile}
           alt="mobiles"
-          style={{ marginTop: '150px' }}
+          style={{ marginTop: '450px' }}
         />
       </div>
     </div>
