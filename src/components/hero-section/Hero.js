@@ -1,6 +1,7 @@
 import './Hero.css';
 import dentist from '../../images/dentist.png';
 import {
+  Avatar,
   Button,
   Input,
   InputAdornment,
@@ -10,6 +11,9 @@ import {
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import MyLocationIcon from '@material-ui/icons/MyLocation';
 import Carousel from './Carousel';
+import CircleAvatars from './CircleAvatars';
+import hero1 from '../../images/hero1.png';
+import hero2 from '../../images/hero2.png';
 
 const Hero = () => {
   const AppointmentButton = withStyles((theme) => ({
@@ -31,11 +35,13 @@ const Hero = () => {
   return (
     <div className="Hero">
       <div className="Highlight">
+        <CircleAvatars img={hero1} />
         <p>
           Book appointment for{' '}
           <span style={{ color: '#e94a90' }}>you and your family</span> with
           qualified doctors online
         </p>
+        <CircleAvatars img={hero2} />
       </div>
 
       <Carousel />
