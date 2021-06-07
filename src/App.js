@@ -1,3 +1,4 @@
+import FAQs from './components/faqs/FAQs';
 import Hero from './components/hero-section/Hero';
 import Navbar from './components/navbar/Navbar';
 import Section2 from './components/section2/Section2';
@@ -16,6 +17,7 @@ const App = () => {
       <Section4 />
       <Section5 />
       <Section6 />
+      <FAQs />
     </div>
   );
 };
