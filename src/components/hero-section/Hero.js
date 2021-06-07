@@ -40,6 +40,7 @@ const Hero = () => {
           height="150px"
           style={{ position: 'absolute', left: '40px', top: '250px' }}
           alt="hero1"
+          className="TopAvatar1"
         />
         <p>
           Book appointment for{' '}
@@ -51,12 +52,13 @@ const Hero = () => {
           height="200px"
           style={{ position: 'absolute', right: '10px', top: '180px' }}
           alt="hero2"
+          className="TopAvatar2"
         />
       </div>
 
       <Carousel />
       <div className="Bottom">
-        <img src={hero3} height="200px" alt="hero1" />
+        <img src={hero3} height="200px" alt="hero1" className="BottomAvatars" />
         <div className="Location">
           <div class="Inputs">
             <div className="locationInput">
@@ -91,7 +93,7 @@ const Hero = () => {
             Book Now
           </AppointmentButton>
         </div>
-        <img src={hero4} height="180px" alt="hero1" />
+        <img src={hero4} height="180px" alt="hero1" className="BottomAvatars" />
       </div>
     </div>
   );

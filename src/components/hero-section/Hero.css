@@ -86,4 +86,19 @@
     width: 50%;
     align-self: center;
   }
+  .BottomAvatars {
+    display: none;
+  }
+  .Bottom {
+    justify-content: center;
+  }
+
+  .TopAvatar1 {
+    top: 280px !important;
+    height: 70px;
+  }
+  .TopAvatar2 {
+    top: 280px !important;
+    height: 70px;
+  }
 }
