@@ -8,6 +8,7 @@ import Section4 from './components/section4/Section4';
 import Section5 from './components/section5/Section5';
 import Section6 from './components/section6/Section6';
 import Section8 from './components/section8/Section8';
+import './App.css';
 
 const App = () => {
   return (

@@ -16,7 +16,7 @@ const Carousel = () => {
         onDragStat={handleDragStart}
         className="carouselItem_img"
       />
-      <p className="carouselItem_txt">{c?.name}</p>
+      <p className="carouselItem_txt">{c.name}</p>
     </div>
   ));
 

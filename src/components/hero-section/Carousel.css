@@ -54,4 +54,10 @@
   .carouselItem_img {
     width: 30px;
   }
+  .Categories {
+    margin: 30px;
+  }
+  .Type {
+    margin: 0px 30px;
+  }
 }
